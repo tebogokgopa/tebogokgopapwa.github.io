@@ -5,17 +5,20 @@
         <title>tebogokgopa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/homepage.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src = "./javascript/main.js"></script>
     </head>
     <body>
+        
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
             <label class="logo">Tebogo Kgopa</label>
             <ul>
-                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experiences">Experiences</a></li>
@@ -23,7 +26,49 @@
                 <li><a href="#feedback">Feedback</a></li>
             </ul>   
         </nav>
-        <section></section>   
-        
+
+        <div class="row">
+            <div class="column">
+                <div id="slideshow-example" data-component="slideshow">
+                    <div role="list">
+                      <div class="slide">
+                        <img src="./images/background/background-four.webp" alt="" style="width:100%">
+                      </div>
+                      <div class="slide">
+                        <img src="./images/background/background-one.jpeg" alt="" style="width:100%">
+                      </div>
+                      <div class="slide">
+                        <img src="./images/background/background-two.jpeg" alt="" style="width:100%">
+                      </div>
+                    </div>
+                  </div>
+                <br>     
+            </div>
+            <div class="column">
+                <div class="maintext">
+                    <button id="hello-button">Thôbêla Ka Gae!</button>
+                    <h2 id="h2">Ke nna Tebogo Kgopa</h2>
+                    <br>
+                    <p>Developer & Facilitator</p>
+                    <br>
+                    <p>Village 1 South , Khayelitsha , Cape Town 7784</p>
+                    <p><a href=" ">082 414 2377</a></p>
+                    <p>tebogokgopa84@gmail.com</p>
+                    <p>https://tebogokgopa.github.io/</p>
+                    <p>https://github.com/tebogokgopa/</p>
+                </div>
+            </div>
+          </div> 
+
+        <footer>
+            <div class="footer_links">
+                <a class = "my_links" href="https://www.facebook.com/Tebogokgopa/" target="_blank"><img class="icons" src="./images/icons/facebook-icon.png"></a>
+                <a class = "my_links" href="https://mobile.twitter.com/tebogo_cyber" target="_blank"><img class="icons" src="./images/icons/twitter-icon.png"></a>
+                <a class = "my_links" href="https://www.instagram.com/tebogokgopa/" target="_blank"><img class="icons" src="./images/icons/instagram-icon.png"></a>
+                <a class = "my_links" href="https://www.linkedin.com/in/tebogo-kgopa-83878b179/" target="_blank"><img class="icons" src="./images/icons/linkedin-icon.png"></a>
+                <a class = "my_links" href="https://github.com/tebogokgopa/" target="_blank"><img class="icons" src="./images/icons/github-icon.png"></a>
+            </div>
+        </footer>
+        <script src = "./javascript/main.js"></script>
     </body>
 </html>
