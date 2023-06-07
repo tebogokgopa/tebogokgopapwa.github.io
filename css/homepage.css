@@ -14,10 +14,13 @@
     padding-left: 20px;
     padding-right:  30px;
     padding-bottom:  20px;
-    border-radius: 5%;
+    border-radius: 10%;
     align-items: center;
   }
-  
+  img{
+    border-radius: 5%;
+  }
+
   .row::after {
     content: "";
     clear: both;
@@ -45,4 +48,10 @@
     text-align: left;
     font-size: 2em;
     padding: 0px;
+}
+
+.homepage{
+    
+    background-color: #add8e6;
+    height: 100%;
 }
