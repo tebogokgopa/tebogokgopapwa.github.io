@@ -31,13 +31,16 @@
     padding-top: 60px;
     font-size: 20px;
     padding-left: 20px;
+    color: white;
 }
-
+.maintext a {
+  color: wheat;
+}
 #hello-button{
     background: rgb(76, 163, 68);
     border: 0;
     color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
     margin-bottom: 10px;
     font-size: 1em;
     border-radius: 5%;
@@ -47,11 +50,11 @@
     color: white;
     text-align: left;
     font-size: 2em;
-    padding: 0px;
+    padding:opx;
 }
 
 .homepage{
     
-    background-color: #add8e6;
+   /* background-color: #add8e6;*/
     height: 100%;
 }
